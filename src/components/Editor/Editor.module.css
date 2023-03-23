@@ -1,0 +1,92 @@
+.container{
+    width: 900px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 4px black;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header .sections{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    /* white-space: nowrap; */
+}
+.header .active{
+    border-bottom: 2px solid #239ce2;
+    color: #239ce2;
+
+}
+.bodyy{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.btn{
+    background-color: rgb(39, 101, 152);
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    margin-left: 1rem;
+    transition: all 400ms ease;
+}
+.btn:active{
+    transform: translateY(10px);
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.detail .row{
+    display:flex;
+    gap: 4rem;
+}
+.detail .column{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+label{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: start;
+    padding: 0.1rem;
+}
+input{
+    border: 1px solid rgb(204,204,204);
+    outline: none;
+    font-size: 1rem;
+    padding: 10px 12px;
+    border-radius: 5px;
+    
+}
+input:hover{
+    border: 1px solid #adadad;
+}
+input:focus{
+    border: 1px solid #239ce2;
+}

@@ -1,0 +1,44 @@
+.container{
+    
+   /* margin: 8rem 3rem; */ 
+   /* margin-top: 1rem; */
+   /* margin: 1rem auto; */
+   /* border-radius: 2rem; */
+   
+   /* height: 100%; */
+  
+   display: flex;
+   overflow: hidden;
+   padding: 1rem 1rem; 
+   gap: 2rem;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(223, 252, 250);
+
+}
+.innerContainer1{
+   /* max-width: 450px; */
+   width: 30%;
+   overflow: hidden;
+   margin-top: 2rem;
+}
+.innerContainer2{
+   width: 50%;
+   overflow: hidden;
+   
+}
+.innerContainer2 img{
+   width: 80%;
+   height: 500px;
+}
+.container .heading{
+   color: black;
+   font-weight: bold;
+   font-size: 3rem;
+   letter-spacing: 0.1rem;
+   font-family: 'Roboto', sans-serif;
+   
+}
+.heading span{
+   color: rgb(95, 43, 226);
+}

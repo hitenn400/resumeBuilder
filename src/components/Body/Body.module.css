@@ -1,0 +1,30 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction:column;
+    
+
+}
+.container h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(39, 101, 152);
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    margin-left: 85rem;
+    transition: all 400ms ease;
+}
+button:hover{
+   background-color:  rgb(41, 155, 248);
+}
